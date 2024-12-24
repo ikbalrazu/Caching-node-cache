@@ -2,6 +2,7 @@
   "name": "caching-node-cache",
   "version": "1.0.0",
   "main": "server.js",
+  "type":"commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
@@ -16,7 +17,8 @@
     "express": "^4.21.1",
     "mongoose": "^8.8.3",
     "node-cache": "^5.1.2",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "redis": "^4.7.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^9.3.0"
